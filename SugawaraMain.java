@@ -9,7 +9,7 @@ public class SugawaraMain{
 
 		System.out.printf("{%n");
 		for(int i=0 ; i<numbers.length ; i++){
-			System.out.printf("\t{");
+			System.out.printf("\t{");//\tもしくは逆スラッシュt
 			for(int j=0 ; j<numbers[i].length ; j++){
 				System.out.printf("%d,",numbers[i][j]);
 			}
