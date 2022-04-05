@@ -9,11 +9,7 @@ public class KimuraMain{
 		for(int i=0;i<nums.length;i++){
 			System.out.printf("\t{");
 			for(int j=0;j<nums[i].length;j++){
-				System.out.print(nums[i][j]);
-				if(j==nums[i].length-1){
-					break;
-				}
-				System.out.print(",");
+				System.out.print(nums[i][j]+",");
 			}
 			System.out.println("},");
 		}
