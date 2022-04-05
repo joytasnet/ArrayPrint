@@ -8,7 +8,7 @@ public class NaganoMain{
 		};
 		System.out.println("{");
 		for(int i =0;i<nums.length;i++){
-			System.out.printf("\t{");
+			System.out.print("\t{");
 			for(int j = 0;j<nums[i].length;j++){
 				System.out.print(nums[i][j]+",");
 			}
